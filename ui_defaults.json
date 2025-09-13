@@ -1,0 +1,50 @@
+{
+  "numeric_defaults": {
+    "CRIM": 0.25651,
+    "ZN": 0.0,
+    "INDUS": 9.69,
+    "CHAS": 0.0,
+    "NOX": 0.538,
+    "RM": 6.211,
+    "AGE": 77.5,
+    "DIS": 3.2074499999999997,
+    "RAD": 5.0,
+    "TAX": 330.0,
+    "PTRATIO": 19.05,
+    "B": 391.44,
+    "LSTAT": 11.36
+  },
+  "categorical_defaults": {},
+  "all_features": [
+    "CRIM",
+    "ZN",
+    "INDUS",
+    "CHAS",
+    "NOX",
+    "RM",
+    "AGE",
+    "DIS",
+    "RAD",
+    "TAX",
+    "PTRATIO",
+    "B",
+    "LSTAT"
+  ],
+  "target": "MEDV",
+  "numeric_features": [
+    "CRIM",
+    "ZN",
+    "INDUS",
+    "CHAS",
+    "NOX",
+    "RM",
+    "AGE",
+    "DIS",
+    "RAD",
+    "TAX",
+    "PTRATIO",
+    "B",
+    "LSTAT"
+  ],
+  "categorical_features": []
+}

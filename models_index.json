@@ -1,0 +1,31 @@
+{
+  "best": "RandomForest",
+  "models": {
+    "LinearRegression": {
+      "pipeline_path": "boston_LinearRegression.pkl",
+      "metrics": {
+        "model_name": "LinearRegression",
+        "test_rmse": 4.919,
+        "test_r2": 0.6701
+      }
+    },
+    "RidgeCV": {
+      "pipeline_path": "boston_RidgeCV.pkl",
+      "metrics": {
+        "model_name": "RidgeCV",
+        "test_rmse": 4.9246,
+        "test_r2": 0.6693,
+        "chosen_alpha": 2.6826957952797246
+      }
+    },
+    "RandomForest": {
+      "pipeline_path": "boston_RandomForest.pkl",
+      "metrics": {
+        "model_name": "RandomForest",
+        "test_rmse": 2.8788,
+        "test_r2": 0.887
+      }
+    }
+  },
+  "note": "Pipelines include imputation + scaling + (if any) encoding."
+}
